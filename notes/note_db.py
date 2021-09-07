@@ -1,4 +1,4 @@
-from flask import Blueprint ,  request ,jsonify
+from flask import Blueprint ,  request ,jsonify, redirect
 from Database.reg_db import Note_Db
 
 bp_todo_db = Blueprint("notes", __name__, url_prefix="/")
