@@ -12,6 +12,7 @@ credentials = {
 
 @bp_wheather.route("/wheather")
 def wheather():
+    
     send_data = []
     conn = mydb.connect(**credentials)
     cursor = conn.cursor()
